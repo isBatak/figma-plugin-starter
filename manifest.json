@@ -1,0 +1,12 @@
+{
+  "name": "Chakra UI Tokens Studio",
+  "id": "1224004836375769526",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "ui": "dist/ui.html",
+  "permissions": ["currentuser"],
+  "relaunchButtons": [{ "command": "edit", "name": "Tokens" }]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "minify": true,
+  "jsc": {
+    "baseUrl": ".",
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "dynamicImport": true,
+      "importAssertions": true
+    },
+    "minify": {
+      "compress": {
+        "unused": true
+      },
+      "mangle": true
+    }
+  }
+}
