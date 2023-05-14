@@ -26,6 +26,7 @@
       "@/panda/jsx": ["./panda/jsx"],
       "@/panda/recipes": ["./panda/recipes"],
       "@/panda/types": ["./panda/types"],
+      "@/panda/*": ["./panda/*"],
       "@/*": ["src/*"]
     },
     "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
