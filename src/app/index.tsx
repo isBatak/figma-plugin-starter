@@ -5,6 +5,7 @@ import '@/panda/styles.css';
 
 document.addEventListener('DOMContentLoaded', function () {
   const container = document.getElementById('__plugin') as HTMLElement;
-  const root = createRoot(container);
-  root.render(<App />);
+  // TODO: figure this out
+  // const root = createRoot(container);
+  // root.render(<App />);
 });
