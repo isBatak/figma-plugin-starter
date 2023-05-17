@@ -47,15 +47,19 @@ module.exports = {
       filename: 'ui.html',
       chunks: ['ui'],
       cache: false,
+      inject: false,
       minify: {
         collapseWhitespace: true,
         removeComments: true,
       },
       templateParameters: (compilation) => {
-        return {
+        const res = {
           inlineCss: compilation.assets['ui.css'].source(),
           inlineJS: compilation.assets['ui.js'].source(),
         };
+        compilation.deleteAsset('ui.css');
+        compilation.deleteAsset('ui.js');
+        return res;
       },
     }),
   ],
